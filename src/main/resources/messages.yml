@@ -1,0 +1,8 @@
+#Só copiar e colar as permissões para ir adicionando cada vez mais mensagens
+joinMessages:
+  permission1:
+    permission: jcore.message.admin
+    message: "&6Bem-vindo, &b{player} &6ao servidor!"
+  permission2:
+    permission: jcore.message.modplus
+    message: "&6Olá, &b{player}&6! Bom te ver novamente!"
