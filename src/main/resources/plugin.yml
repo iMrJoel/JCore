@@ -1,0 +1,49 @@
+name: JCore
+version: 1.0
+main: me.mrjoel.jcore.Main
+commands:
+  cleardrops:
+    description:
+    usage: /cleardrops
+  fly:
+    description:
+    usage: /fly
+  acc:
+      description:
+      usage: /acc <jogador>
+  gm:
+    description:
+    permission: jcore.command.gamemode
+    usage: /gm <0, 1, 3>
+  chat:
+    description:
+    usage: /chat <on, off>
+  clearchat:
+    description:
+    usage: /clearchat
+  invsee:
+    description:
+    usage: /invsee <jogador>
+    permission: jcore.command.invsee
+permissions:
+  jcleardrops.command:
+    description:
+    default: op
+  jfly.command:
+    description:
+    default: op
+  acc.others.command:
+    description: Permissão para usar o comando /acc em outros jogadores.
+    default: op
+  jcore.logs:
+    description: Permissão para ver logs de mudança de modo de jogo.
+    default: op
+  jcore.chatbypass:
+    description: Permissão para ignorar o bloqueio de chat.
+    default: op
+  jcore.command.chat:
+    description: Permissão para ativar/desativar o chat do servidor.
+    default: op
+  jcore.command.invsee:
+    description: Permissão para usar o comando /invsee.
+    default: op
